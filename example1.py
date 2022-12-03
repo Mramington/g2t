@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 
+# TODO Сделать через класс
 if __name__ == '__main__':
     app = QApplication(sys.argv) # Параметр sys.argv — это список аргументов из командной строки.
     window = QWidget() # Виджет QWidget — это основной класс всех объектов пользовательского интерфейса в PyQt5.
